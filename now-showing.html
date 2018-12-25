@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<!--For Bootstrap Icons-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Now Showing</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/ozone.css">
+	<!--For Font Awesome Icons-->
+	<link rel="stylesheet" href="fontawesome/css/all.css">
+	<!--JQuery Library/Function-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+</head>
+<body>
+		<!--Logo Handler-->
+		<div class="container">
+			<a href="#">
+				<img class="mx-auto d-block img-fluid" src="image/ozone-logo.jpg" alt="Logo" width="250px" height="100px;">
+			</a>
+		</div>
+		<div class="container-fluid">
+			<!--This handles the navigation bar-->
+		<nav class="navbar navbar-expand-lg bg-dark navbar-dark" id="mynav">
+
+				<!--Toggler/collapsible Button-->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#thetarget">
+					<span class="navbar-toggler-icon"></span>
+					<span id="menu">MENU</span>
+				</button>
+				
+				<!--Navbar Links-->
+				<div class="collapse navbar-collapse justify-content-center" id="thetarget">
+					<ul class="nav navbar-nav nav-pills" id="test">
+						<li class="nav-item" >
+							<a class="nav-link" href="index.html">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="now-showing.html">NOW SHOWING</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">COMING SOON</a>
+						</li>
+						<!--Using a dropdown menu-->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">CONCESSION</a>
+							<!--Dropdown Links-->
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="offers.html">Offers</a>
+								<a class="dropdown-item" href="offers.html">Combo Deals</a>
+								<a class="dropdown-item" href="offers.html">Snack Prices</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="bookings.html">BOOKINGS</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#">CONTACT</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="contact.html">Box Office</a>
+								<a class="dropdown-item" href="contact.html">Adverts</a>
+								<a class="dropdown-item" href="contact.html">Careers</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">ABOUT</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class=" container">
+			<div id="demo" class="carousel slide" data-ride="carousel">
+
+  			<!-- Indicators -->
+  				<ul class="carousel-indicators">
+    				<li data-target="#demo" data-slide-to="0" class="active"></li>
+			    	<li data-target="#demo" data-slide-to="1"></li>
+    				<li data-target="#demo" data-slide-to="2"></li>
+  				</ul>
+  
+  				<!-- The slideshow -->
+  				<div class="carousel-inner">
+    				<div class="carousel-item active">
+      					<img class="img-fluid" src="image/img-11.jpg" alt="Los Angeles" height="500">
+    				</div>
+    				<div class="carousel-item">
+      					<img class="img-fluid" src="image/img-21.jpg" alt="Chicago" height="500">
+    				</div>
+    				<div class="carousel-item">
+      					<img class="img-fluid" src="image/img-51.jpg" alt="Chicago" height="500">
+      				</div>
+      				<div class="carousel-item">
+      					<img class="img-fluid" src="image/img-61.jpg" alt="Chicago" height="500">
+      				</div>
+      				<div class="carousel-item">
+      					<img class="img-fluid" src="image/img-91.jpg" alt="Chicago" height="500">
+      				</div>
+      				<div class="carousel-item">
+      					<img class="img-fluid" src="image/img-101.jpg" alt="Chicago" height="500">
+      				</div>
+  				</div>
+  
+  				<!-- Left and right controls -->
+  				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+    				<span class="carousel-control-prev-icon"></span>
+  				</a>
+  				<a class="carousel-control-next" href="#demo" data-slide="next">
+    				<span class="carousel-control-next-icon"></span>
+  				</a>
+			</div>
+		</div>
+		
+		<div class="container">
+			<!--Content-->
+			<div class="row">
+				<!--Main Content-->
+				<div class="col-lg-8">
+					<div class="center">
+						<span style="color:red;">NOW SHOWING</span> THIS WEEK
+					</div>
+					<div class="row side">
+						<div class="col-lg-6">
+							<!--Embedding a youtube video and making it responsive-->
+								<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WDkg3h8PCVU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+								<span style="color: purple; font-weight: bold;">RUNNING TIME 143 MINS</span>
+						</div>
+						<div class="col-lg-6">
+							<div><span class="content-head">AQUAMAN<span style="background-color: red; color: white; " class="ml-2 badge badge-secondary">NEW</span></span> <br>
+									Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.<p><strong>Starring: </strong>Jason Momoa, Amber Heard, Willem Dafoe</p>
+									<p><span style="color: rgb(70, 70, 200); font-weight: bold;">Fri to Thurs:</span> 10:00AM, 12:35PM, 3:10PM, 4:55PM, 5:50PM, 7:35PM, 8:30PM</p></div>
+						</div>
+					</div>
+					<div class="row side">
+						<div class="col-lg-6">
+							<!--Embedding a youtube video and making it responsive-->
+								<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WDkg3h8PCVU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+								<span style="color: purple; font-weight: bold;">RUNNING TIME 113 MINS</span>
+						</div>
+						<div class="col-lg-6">
+							<div><span class="content-head">BUMBLEBEE<span style="background-color: red; color: white;" class="ml-2 badge badge-secondary">NEW</span></span> <br>
+									On the run in the year of 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken.<p><strong>Starring: </strong>Hailee Steinfeld, Dylan O'Brien, Megyn Price</p>
+									<p><span style="color: rgb(70, 70, 200); font-weight: bold;">Fri to Thurs:</span> 12:35PM, 2:35PM, 5:20PM</p>
+							</div>
+						</div>
+					</div>
+					<div class="row side">
+						<div class="col-lg-6">
+							<!--Embedding a youtube video and making it responsive-->
+								<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WDkg3h8PCVU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+								<span style="color: purple; font-weight: bold;">RUNNING TIME 130 MINS</span>
+						</div>
+						<div class="col-lg-6">
+							<div><span class="content-head">MARY POPPINS RETURNS<span style="background-color: red; color: white;" class="ml-2 badge badge-secondary">NEW</span></span> <br>
+									Decades after her original visit, the magical nanny returns to help the Banks siblings and Michael's children through a difficult time in their lives.<p><strong>Starring: </strong>Emily Blunt, Lin-Manuel Miranda, Ben Whishaw</p>
+									<p><span style="color: rgb(70, 70, 200); font-weight: bold;">Fri to Thurs:</span> 12:35PM, 2:35PM, 5:20PM</p>
+							</div>
+						</div>
+					</div>
+					<div class="row side">
+						<div class="col-lg-6">
+							<!--Embedding a youtube video and making it responsive-->
+								<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WDkg3h8PCVU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+								<span style="color: purple; font-weight: bold;">RUNNING TIME 110 MINS</span>
+						</div>
+						<div class="col-lg-6">
+							<div><span class="content-head">GOD CALLING<span style="background-color: red; color: white; " class="ml-2 badge badge-secondary">NEW</span></span> <br>
+									When Sade, the central character suffers a personal tragedy, she is taken on a journey of self-discovery and faith which transforms the lives all those around her.<p><strong>Starring: </strong>Eku Edewor, Karibi Fubara, Nkem Owoh</p>
+									<p><span style="color: rgb(70, 70, 200); font-weight: bold;">Fri to Thurs:</span> 1:10PM, 6:10PM</p></div>
+						</div>
+					</div>
+					<div class="row side">
+						<div class="col-lg-6">
+							<!--Embedding a youtube video and making it responsive-->
+								<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WDkg3h8PCVU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+								<span style="color: purple; font-weight: bold;">RUNNING TIME 117 MINS</span>
+						</div>
+						<div class="col-lg-6">
+							<div><span class="content-head">SPIDERMAN: INTO THE SPIDER-VERSE</span> <br>
+									Miles Morales becomes the Spider-Man of his reality and crosses paths with his counterparts from other dimensions to stop a threat to all reality.<p><strong>Starring: </strong>Shameik Moore, Jake Johnson, Hailee Steinfeld</p>
+									<p><span style="color: rgb(70, 70, 200); font-weight: bold;">Fri to Thurs:</span> 12:35PM, 2:45PM, 4:15PM</p></div>
+						</div>
+					</div>
+					<div class="row side">
+						<div class="col-lg-6">
+							<!--Embedding a youtube video and making it responsive-->
+								<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WDkg3h8PCVU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+								<span style="color: purple; font-weight: bold;">RUNNING TIME 128 MINS</span>
+						</div>
+						<div class="col-lg-6">
+							<div><span class="content-head">MORTAL ENGINES</span> <br>
+									In a post-apocalyptic world where cities ride on wheels and consume each other to survive, two people meet in London and try to stop a conspiracy.<p><strong>Starring: </strong>Hera Hilmar, Robert Sheehan, Hugo Weaving</p>
+									<p><span style="color: rgb(70, 70, 200); font-weight: bold;">Fri to Thurs:</span> 7:30PM</p></div>
+						</div>
+					</div>
+					<div class="row side">
+						<div class="col-lg-6">
+							<!--Embedding a youtube video and making it responsive-->
+								<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WDkg3h8PCVU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+								<span style="color: purple; font-weight: bold;">RUNNING TIME 89 MINS</span>
+						</div>
+						<div class="col-lg-6">
+							<div><span class="content-head">ELLIOT THE LITTLEST REINDEER</span> <br>
+									When Blitzen announces his retirement on December 21st, a miniature horse has 3 days to fulfill his lifelong dream of earning a spot on Santa's team at the North Pole try-outs.<p><strong>Starring: </strong>Morena Baccarin, Josh Hutcherson, John Cleese</p>
+									<p><span style="color: rgb(70, 70, 200); font-weight: bold;">Fri to Thurs:</span> 10:00AM</p></div>
+						</div>
+					</div>
+					<div class="row side">
+						<div class="col-lg-6">
+							<!--Embedding a youtube video and making it responsive-->
+								<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WDkg3h8PCVU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+								<span style="color: purple; font-weight: bold;">RUNNING TIME 86 MINS</span>
+						</div>
+						<div class="col-lg-6">
+							<div><span class="content-head">THE GRINCH</span> <br>
+									A grumpy Grinch plots to ruin Christmas for the village of Whoville.<p><strong>Starring: </strong>Hera Hilmar, Robert Sheehan, Hugo Weaving</p>
+									<p><span style="color: rgb(70, 70, 200); font-weight: bold;">Fri to Thurs:</span>11:45AM, 1:20PM</p></div>
+						</div>
+					</div>
+					<div class="row side">
+						<div class="col-lg-6">
+							<!--Embedding a youtube video and making it responsive-->
+								<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WDkg3h8PCVU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+								<span style="color: purple; font-weight: bold;">RUNNING TIME 100 MINS</span>
+						</div>
+						<div class="col-lg-6">
+							<div><span class="content-head">CHIEF DADDY</span> <br>
+									"Chief Daddy" tells the story of billionaire industrialist Chief Beecroft, a flamboyant benefactor to a large extended family of relatives, household staff and assorted mistresses.<p><strong>Starring: </strong> Funke Akindele, Zainab Balogun, Ini Edo</p>
+									<p><span style="color: rgb(70, 70, 200); font-weight: bold;">Fri to Thurs:</span>12:20PM, 2:15PM, 4:40PM, 6:20PM, 6:55PM, 8:15PM </p></div>
+						</div>
+					</div>
+					<div class="row side">
+						<div class="col-lg-6">
+							<!--Embedding a youtube video and making it responsive-->
+								<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WDkg3h8PCVU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+								<span style="color: purple; font-weight: bold;">RUNNING TIME 92 MINS</span>
+						</div>
+						<div class="col-lg-6">
+							<div><span class="content-head">HEAVEN ON MY MIND</span> <br>
+									Ben Peters is a man who sees marriage as a business transaction, a life style he's willing to adjust once he met a beautiful woman called heaven.<p><strong>Starring: </strong>Adunni Ade, Femi Adebayo, Mercy Aigbe</p>
+									<p><span style="color: rgb(70, 70, 200); font-weight: bold;">Fri to Thurs:</span>10:35AM</p></div>
+						</div>
+					</div>
+					<div class="row side">
+						<div class="col-lg-6">
+							<!--Embedding a youtube video and making it responsive-->
+								<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WDkg3h8PCVU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+								<span style="color: purple; font-weight: bold;">RUNNING TIME 112 MINS</span>
+						</div>
+						<div class="col-lg-6">
+							<div><span class="content-head">RALPH BREAKS THE INTERNET</span> <br>
+									Six years after the events of "Wreck-It Ralph", Ralph and Vanellope, now friends, discover a wi-fi router in their arcade, leading them into a new adventure.<p><strong>Starring: </strong>John C. Reilly, Sarah Silverman, Gal Gadot</p>
+									<p><span style="color: rgb(70, 70, 200); font-weight: bold;">Fri to Thurs:</span>10:15AM</p></div>
+						</div>
+					</div>
+					<div class="row side">
+						<div class="col-lg-6">
+							<!--Embedding a youtube video and making it responsive-->
+								<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WDkg3h8PCVU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+								<span style="color: purple; font-weight: bold;">RUNNING TIME 170 MINS</span>
+						</div>
+						<div class="col-lg-6">
+							<div><span class="content-head">KING OF BOYS</span> <br>
+									King of Boys follows the story of Alhaja Eniola Salami, a businesswoman and philanthropist with a checkered past and a promising political future. She is a pillar of society -- loved by many, feared by most, and truly known by a select few. As her political ambitions see her outgrowing the underworld connections responsible for her considerable wealth, she's drawn into a power struggle that threatens everything she holds dear. To come out of this on top, she will need every ounce of the cunning, ruthlessness, and strategy that took her to the top, as well as the loyalty of those closest to her. But who can she really trust?<p><strong>Starring: </strong>Sola Sobowale, Remilekun Reminisce Safaru, Adesua Etomi</p>
+									<p><span style="color: rgb(70, 70, 200); font-weight: bold;">Fri to Thurs:</span>10:20AM, 3:10PM, 8:10PM</p></div>
+						</div>
+					</div>
+				</div>
+				<!--Side Content-->
+				<div class="col-lg-4">
+					<div class="center pb-4">
+						<span style="color:red;">TICKET</span> PRICE
+					</div>
+					<!--Side Content Top-->
+					<div class="row">
+						<div class="col-lg">
+							<div class="container">
+								<div class="">
+									<img src="image/promo.gif" alt="Promo Plans" style="width: 450px;" class="img-fluid mx-auto d-block">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Side Content Bottom-->
+					<div class="row">
+						<div class="col-lg">
+							<div class="container mt-1">
+								<p class="center">
+									<span style="color: red;">NOLLYWOOD MOVIES</span> AT OZONE CINEMAS
+								</p>
+								<div id="demo-new" class="carousel slide" data-ride="carousel">
+
+  									<!-- Indicators -->
+  									<ul class="carousel-indicators">
+    									<li data-target="#demo-new" data-slide-to="0" class="active"></li>
+			    						<li data-target="#demo-new" data-slide-to="1"></li>
+    									<li data-target="#demo-new" data-slide-to="2"></li>
+  									</ul>
+  
+  									<!-- The slideshow -->
+  									<div class="carousel-inner">
+    									<div class="carousel-item active">
+      										<img class="img-fluid" src="image/img-11.jpg" alt="Los Angeles" height="500">
+    									</div>
+    									<div class="carousel-item">
+      										<img class="img-fluid" src="image/img-21.jpg" alt="Chicago" height="500">
+    									</div>
+    									<div class="carousel-item">
+      										<img class="img-fluid" src="image/img-51.jpg" alt="Chicago" height="500">
+      									</div>
+      									<div class="carousel-item">
+      										<img class="img-fluid" src="image/img-61.jpg" alt="Chicago" height="500">
+      									</div>
+      									<div class="carousel-item">
+      										<img class="img-fluid" src="image/img-91.jpg" alt="Chicago" height="500">
+      									</div>
+      									<div class="carousel-item">
+      										<img class="img-fluid" src="image/img-101.jpg" alt="Chicago" height="500">
+      									</div>
+  									</div>
+  
+  									<!-- Left and right controls -->
+  									<a class="carousel-control-prev" href="#demo-new" data-slide="prev">
+    									<span class="carousel-control-prev-icon"></span>
+  									</a>
+  									<a class="carousel-control-next" href="#demo-new" data-slide="next">
+    									<span class="carousel-control-next-icon"></span>
+  									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Footer-->
+		<div id="myfoot">
+			<div class="row">
+				<div class="col-lg pad">
+					<img class="img-fluid d-block mx-auto" src="image/ozone-logo.jpg" alt="Ozone Logo" width="300px">
+					<p style="color: lightgray; text-align: center;">
+						Ozone Cinemas designed to international standards with perfect acoustics, each auditorium is equipped with state-of-the art projection and Dolby surround sound. Every performance promises to deliver an unparalleled experience in filmed entertainment.
+					</p>
+				</div>
+				<div class="col-lg">
+					<img class="img-fluid d-block mx-auto mb-4 mt-2" src="image/ozone-reg.jpg" alt="Ozone Logo" width="450px">
+				</div>
+				<div class="col-lg pad">
+					<div>
+						<span style="color: lightgray;">NEWSLETTER SIGN UP</span>
+
+						<!--Form with a button built into the input-->
+						<form class="mt-2">
+							<label style="color: lightgray;" for="demo-mail">Sign up to our newsletter and get exclusive deals you will not find anywhere else straight to your inbox!</label>
+							<div class="input-group mb-3">
+								<input type="text" class="form-control" placeholder="Email" id="demo-mail" name="email">
+								<div class="input-group-prepend">
+									<button style="border-radius: 0.3em; " class="btn btn-outline-light" type="button"><i class="fas fa-envelope"></i></button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="col-lg">
+						<span style="color: lightgray">STAY CONNECTED</span>
+						<ul class="weblink">
+							<li>
+								<button type="button" class="facebook btn btn-outline-light"><i class="fab fa-facebook-f"></i></button>
+							</li>
+							<li>
+								<button type="button" class="twitter btn btn-outline-light"><i class="fab fa-twitter"></i></button>
+							</li>
+							<li>
+								<button type="button" class="google-plus btn btn-outline-light"><i class="fab fa-google-plus-g"></i></button>
+							</li>
+							<li>
+								<button type="button" class="instagram btn btn-outline-light"><i class="fab fa-instagram"></i></button>
+							</li>
+							<li>
+								<button type="button" class="youtube btn btn-outline-light"><i class="fab fa-youtube"></i></button>
+							</li>
+							<li>
+								<button type="button" class="message btn btn-outline-light"><i class="fas fa-envelope"></i></button>
+							</li>
+						</ul>
+  							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="autograph">
+			<span style="color: lightgray;">Designed by Adewusi Victor 
+				<a href=""><i style="color: #4267b2;" class="fab fa-facebook-f"></i></a>
+				<a href="www.twitter.com/wri_teens"><i style="color: #00aced;" class="fab fa-twitter"></i></a>
+				<a href="www.instagram.com/wri_teens"><i style="color: #ffc273;" class="fab fa-instagram"></i></a>
+				<a href="mailto:adewusi.victorg@gmail.com"><i style="color: #1ba261;" class="fas fa-envelope"></i></a>
+			</span>
+		</div>
+	</body>
+</html>
