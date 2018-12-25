@@ -1,0 +1,123 @@
+#menu {
+	font-size: 17px;
+	color: lightgray;
+}
+.nav.navbar-nav.nav-pills li a:hover {
+	background-color: white;
+}
+.nav-item{
+	padding-right: 30px;
+}
+#test a{
+	color: lightgray;
+}
+#test a:hover {
+	color: black;
+}
+#mynav {
+	border-radius: 0.5em;
+	margin-top: 15px;
+}
+#myfoot {
+	border-radius: 0.5em;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #343a40;
+}
+/*This controls what happens to the dropdown when hovering*/
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+.dropdown-menu {
+	background-color: #343a40;
+}
+.dropdown-menu a {
+	color: lightgray;
+}
+.dropdown-menu a:hover {
+	background-color: 
+}
+.carousel-inner img {
+	min-width: 100%;
+	height: auto;
+}
+.content-head {
+	font-weight: bold;
+	font-size: 18px;
+}
+.movie-button li {
+	display: inline-block;
+}
+.movie-button li button:hover {
+	background-color: lightblue;
+}
+.hmm {
+	border:1px solid yellow;
+}
+.textWrap {
+	float: left;
+	margin: 10px;
+}
+.clearfix {
+	overflow: auto;
+}
+.center {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+.pad {
+	padding-top: 60px;
+}
+.weblink li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 15px;
+}
+.weblink {
+	margin-top: 10px;
+	margin-left: -2em;
+}
+.facebook:hover {
+	background-color: #4267b2;
+	color: white
+}
+.twitter:hover {
+	background-color: #00aced;
+	color: white;
+}
+.google-plus:hover {
+	background-color: rgb(221, 75, 57);
+	color: white;
+}
+.instagram:hover {
+	background-color: #ffc273;
+	color: white;
+}
+.youtube:hover {
+	background-color: #FF0000;
+	color: white
+}
+.message:hover {
+	background-color: #1ba261;
+	color: white;
+}
+.hmm {
+	border: 1px solid yellow;
+}
+.mylist {
+	list-style: none;
+}
+.side {
+	padding-top: 50px;
+}
+.form-control {
+	width: 50%;
+}
+.autograph {
+	border-radius: 0.5em;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #343a40;
+	text-align: right;
+}
